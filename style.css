@@ -1,0 +1,33 @@
+#form {
+  top: 50%;
+  left: 50%;
+  margin-top: 100px;
+  position: relative;
+  display: inline-block;
+  transform: translate(-50%, -50%);
+}
+
+input[type='text'] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+}
+
+#hasil {
+  background-color: #1b4e96;
+  padding: 15px 32px;
+  color: white;
+  font-family: Arial;
+  font-size: 20px;
+  float: right;
+}
+
+.condition {
+  position: relative;
+  padding: 15px 32px;
+  color: white;
+  background-color: #79a1d8;
+  font-family: Arial;
+  font-size: 20px;
+}
